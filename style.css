@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 1px 2px #eee;
+
+}
+
+#logo{
+    width: 200px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    padding-right: 200px;
+}
+
+.btn{
+    color: #424242;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    width: 70%;
+}
+
+.invest{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    margin: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #424242;
+    text-align: center;
+    
+}
+
+h3{
+    margin: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #424242;
+    text-align: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.button-sign{
+
+    width: 150px;
+    height: 40px;
+    background-color: #387ed1 ;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    border: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button-sign:hover{
+    background-color: #020f1f;
+}
